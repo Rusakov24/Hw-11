@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 
 public class Main {
-
     public static void isLeap(int year){
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
             System.out.println(year + " год — високосный год.");
@@ -40,7 +39,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println("Задание 1");
+        System.out.println("\nЗадание 1");
         int[] years = new int[125];
         for (int i = 0; i <= years.length - 1; i++) {
             years[i] = (i+1900);
@@ -50,10 +49,10 @@ public class Main {
             isLeap(i);
         }
 
-        System.out.println("Задание 2");
+        System.out.println("\nЗадание 2");
         installSystem(1,2023);
 
-        System.out.println("Задание 3");
+        System.out.println("\nЗадание 3");
         countDays(101);
     }
 }
