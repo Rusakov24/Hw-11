@@ -64,6 +64,6 @@ public class Main {
         installSystem(0, 2020);
 
         System.out.println("Задание 3");
-        countDays(30);
+        countDays(90);
     }
 }
